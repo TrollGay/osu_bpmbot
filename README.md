@@ -1,3 +1,8 @@
+**Pre-requisites for installation**
+
+You must have node.js installed (https://nodejs.org/en/download/) (ensuring add to PATH option is checked during installation).
+
+
 **How to setup/use:**
 
 - Rename credentials.js.example to credentials.js
@@ -5,5 +10,6 @@
 - Edit credentials.js and put in your bot's username, authentication token and the channel name you want to connect to (this is the twitch username of the streamer).
 - Set isBotAdmin in credentials.js to true if your bot has admin rights on the channel (this increases the message rate limit on twitch).
 - Open a command line/terminal window and change directory to where bot.js is located.
+- Enter the command 'npm install tmi.js --save'
 - Run the command 'node bot.js' to install the required dependencies and start the bot.
 - Press ctrl+c or close the window to stop the bot.
